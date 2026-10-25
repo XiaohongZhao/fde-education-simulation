@@ -2,6 +2,8 @@
 
 An English, browser-based demo of the adult-training FDE reference prototype. Visitors can choose four synthetic scenarios, edit learner requirements, inspect matching and escalation decisions, review the reply draft and download the structured result. No account, API key or server-side application is required.
 
+**[Open the GitHub Pages demo](https://xiaohongzhao.github.io/fde-education-simulation/)**
+
 ## Run locally
 
 From this directory:
@@ -18,7 +20,8 @@ Open `http://localhost:8765`. Serve the files over HTTP; opening `index.html` di
 - `dist/app.js`: form, presets, accessible result tabs, copy and JSON download.
 - `dist/data.json`: the original synthetic catalogue and four example inputs.
 - `dist/index.html` and `dist/style.css`: responsive interface.
-- `.openai/hosting.json`: Sites identity and static deployment configuration.
+- `../.github/workflows/pages.yml`: GitHub Actions workflow that publishes `web/dist` to GitHub Pages when website files change on `main`.
+- `.openai/hosting.json`: retained metadata for the earlier Sites deployment; GitHub Pages does not use this file.
 
 The simulated date defaults to 2026-10-25 and can be changed in More controls. CNY prices and UTC+08:00 trial times retain the original scenario. The browser trace omits Python's input fingerprint; matching, routing, draft content and action states follow the reference implementation.
 
