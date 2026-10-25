@@ -1,0 +1,6 @@
+[
+  {"id":"SYN-001","age":28,"goal":"data","budget":3500,"level":0,"availability":["weekend"],"format":"online","consent_followup":true,"intent":"trial","message":"I want to learn data analysis, am available at weekends and have a CNY 3,500 budget. I would like a trial first."},
+  {"id":"SYN-002","age":32,"goal":"automation","budget":5500,"level":1,"availability":["weekday_evening"],"format":"online","consent_followup":false,"intent":"consult","message":"I have some basic experience and want to study Python automation after work. Please do not contact me for now."},
+  {"id":"SYN-003","age":24,"goal":"ai_office","budget":2500,"level":0,"availability":["weekday_evening"],"format":"online","consent_followup":true,"intent":"job_guarantee","message":"Can you guarantee a job paying CNY 20,000 per month after the course?"},
+  {"id":"SYN-004","age":30,"goal":"design","budget":4500,"level":0,"availability":["weekend"],"format":"offline","consent_followup":true,"intent":"consult","message":"I would like to enrol in an in-person design course."}
+]
