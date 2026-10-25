@@ -1,6 +1,6 @@
 # Adult Training FDE Simulation
 
-**[Try the interactive web demo →](https://xiaohong-training-simulator.yoyo20260221.chatgpt.site)**
+**[Try the interactive web demo on GitHub Pages →](https://xiaohongzhao.github.io/fde-education-simulation/)**
 
 Open the public demo in your browser, choose a scenario, edit learner requirements and run the simulation. No login, installation or API key is required. The English interface shows course matches, trial proposals, follow-up drafts and a five-stage decision trace. It uses the same deterministic business rules as the Python reference; no live AI calls or real bookings are made. See the [web implementation](web/README.md) for source and local setup.
 
