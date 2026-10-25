@@ -1,5 +1,9 @@
 # Adult Training FDE Simulation
 
+**[Try the interactive web demo →](https://xiaohong-training-simulator.yoyo20260221.chatgpt.site)**
+
+Open the public demo in your browser, choose a scenario, edit learner requirements and run the simulation. No login, installation or API key is required. The English interface shows course matches, trial proposals, follow-up drafts and a five-stage decision trace. It uses the same deterministic business rules as the Python reference; no live AI calls or real bookings are made. See the [web implementation](web/README.md) for source and local setup.
+
 An end-to-end Forward Deployed Engineering case for **course enquiries, trial-session proposals and enrolment follow-up** at the fictional Qicheng Vocational Learning Centre. You take the role of an FDE working with the client: understand the business problem, choose a pilot scope, build a prototype, validate it and hand it over to the provider's team.
 
 The project adapts the four-stage simulation structure of [kalyvask/fde-simulation](https://github.com/kalyvask/fde-simulation) with an education-specific scenario, data, code and exercises. All people, business figures, courses, learners and interview evidence are fictional teaching material. See [NOTICE.md](NOTICE.md) for attribution and the scope of the adaptation.
