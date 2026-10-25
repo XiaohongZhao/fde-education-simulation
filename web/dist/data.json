@@ -1,0 +1,149 @@
+{
+  "catalog": {
+    "version": "edu-2026-10-v1",
+    "valid_from": "2026-10-01",
+    "valid_until": "2026-11-30",
+    "synthetic": true,
+    "courses": [
+      {
+        "id": "DATA-101",
+        "name": "Introduction to Excel and Data Analysis",
+        "price": 2980,
+        "weeks": 6,
+        "goals": [
+          "data"
+        ],
+        "level_min": 0,
+        "level_max": 1,
+        "slot": "weekend",
+        "format": "online",
+        "active": true,
+        "seats": 8,
+        "trial_at": "2026-11-07T10:00:00+08:00"
+      },
+      {
+        "id": "PY-201",
+        "name": "Practical Python Automation",
+        "price": 4980,
+        "weeks": 8,
+        "goals": [
+          "automation",
+          "data"
+        ],
+        "level_min": 1,
+        "level_max": 2,
+        "slot": "weekday_evening",
+        "format": "online",
+        "active": true,
+        "seats": 5,
+        "trial_at": "2026-11-05T19:30:00+08:00"
+      },
+      {
+        "id": "AI-101",
+        "name": "AI Office Workflows",
+        "price": 1980,
+        "weeks": 4,
+        "goals": [
+          "ai_office"
+        ],
+        "level_min": 0,
+        "level_max": 2,
+        "slot": "weekday_evening",
+        "format": "online",
+        "active": true,
+        "seats": 12,
+        "trial_at": "2026-11-04T19:30:00+08:00"
+      },
+      {
+        "id": "DESIGN-101",
+        "name": "Visual Design Fundamentals",
+        "price": 3980,
+        "weeks": 6,
+        "goals": [
+          "design"
+        ],
+        "level_min": 0,
+        "level_max": 1,
+        "slot": "weekend",
+        "format": "offline",
+        "active": true,
+        "seats": 0,
+        "trial_at": "2026-11-08T10:00:00+08:00"
+      },
+      {
+        "id": "DATA-OLD",
+        "name": "Legacy Data Bootcamp",
+        "price": 980,
+        "weeks": 4,
+        "goals": [
+          "data"
+        ],
+        "level_min": 0,
+        "level_max": 2,
+        "slot": "weekend",
+        "format": "online",
+        "active": false,
+        "seats": 10,
+        "trial_at": "2026-11-01T10:00:00+08:00"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "id": "SYN-001",
+      "age": 28,
+      "goal": "data",
+      "budget": 3500,
+      "level": 0,
+      "availability": [
+        "weekend"
+      ],
+      "format": "online",
+      "consent_followup": true,
+      "intent": "trial",
+      "message": "I want to learn data analysis, am available at weekends and have a CNY 3,500 budget. I would like a trial first."
+    },
+    {
+      "id": "SYN-002",
+      "age": 32,
+      "goal": "automation",
+      "budget": 5500,
+      "level": 1,
+      "availability": [
+        "weekday_evening"
+      ],
+      "format": "online",
+      "consent_followup": false,
+      "intent": "consult",
+      "message": "I have some basic experience and want to study Python automation after work. Please do not contact me for now."
+    },
+    {
+      "id": "SYN-003",
+      "age": 24,
+      "goal": "ai_office",
+      "budget": 2500,
+      "level": 0,
+      "availability": [
+        "weekday_evening"
+      ],
+      "format": "online",
+      "consent_followup": true,
+      "intent": "job_guarantee",
+      "message": "Can you guarantee a job paying CNY 20,000 per month after the course?"
+    },
+    {
+      "id": "SYN-004",
+      "age": 30,
+      "goal": "design",
+      "budget": 4500,
+      "level": 0,
+      "availability": [
+        "weekend"
+      ],
+      "format": "offline",
+      "consent_followup": true,
+      "intent": "consult",
+      "message": "I would like to enrol in an in-person design course."
+    }
+  ]
+}
